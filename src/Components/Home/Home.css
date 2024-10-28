@@ -1,0 +1,377 @@
+body {
+    background: rgba(255 ,255 ,241);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.mainBanner{
+    background: url(https://static.wixstatic.com/media/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.jpg/v1/fill/w_1280,h_1178,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.jpg) no-repeat;
+    z-index: -5;
+    width: 100%;
+    height: 942px;
+    object-fit: cover;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.mainBannerheading-1, .mainBannerheading-2{
+    font-size: 54px;
+    font-weight: 400;
+    color: white;
+}
+.mainBannersub-heading-1, .mainBannersub-heading-2{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+.btn2 {
+    color: black;
+    width: 197px;
+    height: 56px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.btn2:hover{
+    color:black;
+    background: transparent;
+    transition: .5s;
+}
+.getEstimateForm{
+    width: 745px;
+    height: 553px;
+    background: rgb(255, 249, 175);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 417px;
+    position: relative;
+    top: -230px;
+}
+.getEstimateFormheading{
+    font-weight: 450;
+    font-size: 30px;
+    color: rgb(62, 62, 62);
+}
+.getEstimateFormsub-heading{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(62, 62, 62);;
+    position: relative;
+    bottom: 15px;
+} 
+.form-control, .form-select{
+    margin: 0px 0px 12px;
+    padding: 0px 20px 0px 2px;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+    height: 50px;
+    width: 215px;
+    border-radius: 10px;
+}
+.btn3{
+    color: white;
+    width: 215px;
+    height: 56px;
+    background: rgb(10, 35, 35);
+    border: 2px solid rgb(10, 35, 35);
+    border-radius: 25px;
+}
+.reviewBox{
+    background: rgb(255, 249, 175);
+    margin: 5px;
+    width: 250px;
+    height: 340px;
+    padding: 30px;
+}
+.reviewPanelheading{
+    font-size: 44px;
+    color: rgb(7, 35, 38);
+    font-weight: 450;
+}
+.reviewBoxheading{
+    font-weight: 490;
+    color: rgb(10, 35, 35);
+    font-size: 26px;
+}
+.reviewBoxContent{
+    color: rgb(10, 35, 35);
+    font-size: 16px;
+}
+.reviewPanel{
+    padding-top: 200px;
+}
+.stars{
+    font-size: 20px;
+    height: 10px;
+}
+.servicePanel{
+    margin-top: 100px;
+    background: rgb(76, 91, 92);
+    text-align: center;
+}
+.container-3{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 63px;
+}
+#div6-1 ,#div6-2 ,#div6-3 {
+    border-radius: 10px;
+    height: 450px;
+    width: 338px;
+    justify-content: center;
+}
+#div6-1{
+    margin-right: 20px;
+}
+#div6-2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#div6-3{
+    margin-left: 20px;
+}
+.btn4{
+    color: rgb(76, 91, 92);;
+    width: 210px;
+    height: 56px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.workedfor{
+    padding: 100px;
+    text-align: center;
+}
+.workedforheading{
+    color: rgb(10, 35, 35);
+    font-size: 44px;
+    font-weight: 490;
+}
+.slideshow-container {
+    position: relative;
+    padding: 100px;
+    overflow: hidden;
+    
+}
+.slideshow {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+.before, .after {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.slideshow-containerheading{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    color: rgb(10, 35, 35);
+}
+.next {
+    right: 110px;
+    border-radius: 3px 0 0 3px;
+}
+.prev{
+    right: 1108px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.workingBanner{
+    background: url(../../../public/abc.jpg) no-repeat;
+    background-size: cover;
+    height: 475px;
+    margin-top: 50px;
+}
+.workingBannerheading{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 44px;
+    color: white;
+}
+.process{
+    height: 74px;
+    width: 74px;
+    background: rgb(255, 249, 175);
+    border-radius: 120px; 
+}
+.processimage{
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.processdescription{
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 300;
+    width: 220px;
+}
+.planBanner{
+    background: rgb(76, 91, 92);
+    height: 780px;
+}
+.planBannerMainHeading{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.planBannerDescription{
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    width: 420px;
+}
+.planBox{
+    background-color: white;
+    border-radius: 20px;
+    height: 510px;
+    width: 411px;
+    margin-top: 100px;
+}
+.planBoxUpper{    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 260px;
+    width: 411px;
+    position: relative;
+    left: 12px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(10, 35, 35);
+    align-items: center;
+    background: rgb(255,249,175);
+}
+.planBoxHeading{
+    font-weight: 100;
+    
+}
+.planBoxTime{
+    top: -40px;
+    position: relative;
+    font-weight: 490;
+    font-size: 16px;
+}
+.planBoxSign{
+    font-size: 24px;
+    color: rgb(10, 35, 35);
+    position: relative;
+    top: 5px;
+    right: 60px;
+}
+.planBoxPrice{
+    color: rgb(10, 35, 35);
+    font-size: 70px;
+    font-weight: 490;
+    position: relative;
+    top: -40px;
+}
+.btn8{
+    position: relative;
+    color: white;
+    top: -35px;
+    background: rgb(10, 35, 35);
+    width: 230px;
+    height: 48px;
+    border-radius: 30px;
+}
+.planBoxLower{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(10, 35, 35);
+    align-items: center; 
+}
+.arrow-list {
+    list-style: none; 
+    padding: 0;
+}
+
+.arrow-list li {
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.arrow-list li::before {
+    content: "➔"; 
+    position: absolute;
+    left: 0;
+    color: #000; 
+}
+.specialityBanner{
+    height: 752px;
+}
+.specialityBannerImage{
+    border-radius: 10px;
+    background: url(../../../public/img-1.webp);
+    background-size: cover;
+    margin-left: 112px;
+    margin-top: 100px;
+    height: 491px;
+    width: 361px;
+}
+.specialityBannerSubHeading{
+    font-size: 22px;
+    font-weight: 400;
+}
+#fe{
+    color: rgb(10, 35, 35);
+    font-weight: 400;
+    padding: 15px;
+}
+.btn6{
+    color: white;
+    background: rgb(10, 35, 35);
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+}
+.box-9{
+    background: url(../../../public/bg-1.jpg);
+    height: 728px;
+}

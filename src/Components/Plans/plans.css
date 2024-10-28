@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(255 ,255 ,241);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#specialBody{
+    background: rgba(255, 249, 175);
+}
+.box-6{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card{
+    height: 500px;
+    width: 320px;
+    border: 1px solid black;
+}
+.cardBody{
+    border-bottom: 1px solid black;
+    height: 260px;
+    padding: 20px;
+    text-align: center;
+}
+.detailsBox{
+    padding: 10px;
+    text-align: center;
+}
+.btn6{
+    background: rgb(10, 35, 35);
+    border-radius: 30px;
+    height: 60px;
+    font-size: 20px;
+    width: 280px;
+    color: white;
+}
+.plansMainHeading{
+    font-size: 55px;
+    color: rgb(7, 35, 38);
+    font-weight: 400;
+    
+}
+.plansSubHeading{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(7, 35, 38);
+}
+.cardBodyHeading{
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.cardBodySign{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    right: 45px;
+}
+.cardBodyPrice{
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+.cardBodyTime{
+    font-weight: 400;
+    font-size: 11px;
+    position: relative;
+    bottom: 25px;
+}
+.arrow-list {
+    list-style: none; 
+    padding: 0;
+}
+
+.arrow-list li {
+    margin-bottom: 20px;
+
+}
+
+.arrow-list li::before {
+    content: "➔"; 
+    color: #000; 
+}
