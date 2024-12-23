@@ -17,7 +17,7 @@ function App() {
       {!isLoginPage && <Header />}
       <Routes>
         <Route path="/login" element={<LoginForm />} />
-        <Route path="Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/services" element={<ServiceList />} />
         <Route path="/About" element={<AboutPage />} />
         <Route path="/Plans" element={<Plans />} />
