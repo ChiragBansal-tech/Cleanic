@@ -22,7 +22,7 @@ export default function Header() {
       <header>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="Home">
+            <Link className="navbar-brand" to="">
               <img className="im4" src="star.JPG" alt="Logo" /> The Cleanic
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
